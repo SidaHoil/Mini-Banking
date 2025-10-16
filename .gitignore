@@ -1,0 +1,34 @@
+# Xcode build files
+DerivedData/
+build/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods (if not using Pods, still ok)
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Firebase / Google
+GoogleService-Info.plist
+
+# Environment Files
+*.env
+*.xcconfig
+
+# macOS
+.DS_Store
